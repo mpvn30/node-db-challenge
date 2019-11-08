@@ -40,11 +40,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+A Relational Database is a structured database usually in a table with rows and columns that recognizes relations among items of information. While Structured Query Language allows us to communicate with this database so we can find what we are looking for or configure data. 
+
 - [ ] Why do tables need a `primary key`?
+
+A primary key is important to distinguish data and to make them unique.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+We use a Foreign Key to connect or join or reference keys from different tables
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+One of the two tables should be able to accept a many to one relationship to be able to have a many to many relationship. Usually we create a third table to connect information between the two tables.
+
 
 ## Minimum Viable Product
 
